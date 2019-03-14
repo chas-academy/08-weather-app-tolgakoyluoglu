@@ -20,7 +20,7 @@ body {
 }
 
 .toggleTemp {
-  transition: 0.5s;
+  transition: 0.4s;
   padding: 4px 12px;
   border: none;
   cursor: pointer;
