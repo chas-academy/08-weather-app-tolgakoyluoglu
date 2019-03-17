@@ -10,7 +10,7 @@ const locationKey = 'D3bucmtmT9Y2J2ObSbiR3pVOsaB4baUE';
 const locationBaseUrl = 'https://open.mapquestapi.com/geocoding/v1/address?key=';
 
 const darkskyKey = 'a454df907d79a1e59fe04ca230be5860';
-const darkskyBaseUrl = 'https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/';
+const darkskyBaseUrl = 'https://but-of-cors.herokuapp.com/https://api.darksky.net/forecast/';
 
 class App extends Component {
   state = {

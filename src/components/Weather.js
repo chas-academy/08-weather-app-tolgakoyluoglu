@@ -3,7 +3,7 @@ import CurrentIcon from './Icon'
 import Loader from '../assets/SVG/loader.svg'
 
 const darkskyKey = 'a454df907d79a1e59fe04ca230be5860';
-const darkskyBaseUrl = 'https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/';
+const darkskyBaseUrl = 'https://but-of-cors.herokuapp.com/https://api.darksky.net/forecast/';
 
 export default class Weather extends Component {
 
@@ -41,7 +41,6 @@ export default class Weather extends Component {
                             hourly: res.hourly.data,
                             isLoading: false
                         })
-                        console.log(this.state)
                     })
             })
         }
